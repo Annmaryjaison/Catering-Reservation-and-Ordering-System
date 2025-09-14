@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2dedf;
+    color: #333;
+}
+
+.header, .footer {
+    background-color: #0894f0;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.logo {
+    
+    max-width: 1200px;
+    padding: 20px;
+    margin: 20px auto ;
+     background: rgb(6, 4, 4);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(23, 188, 210, 0.1);
+}
+.image-container {
+            display: flex; /* This is the key CSS property */
+            justify-content: center;
+            gap: 15px; /* Adds space between images */
+            flex-wrap: wrap; /* Allows images to wrap on smaller screens */
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px; /* Optional rounded corners */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional shadow effect */
+        }
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(69, 124, 206);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.food-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.food-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
